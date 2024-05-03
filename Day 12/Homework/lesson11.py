@@ -4,8 +4,8 @@ while ციკლის გამოყენებით ტერმინა
 a-დან b-მდე"""
 
 
-a = int(input("enter number"))
-b = int(input("enter number"))
+a = int(input("enter number: "))
+b = int(input("enter number: "))
 
 while  a <= b:
     print(a)

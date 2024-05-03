@@ -2,8 +2,8 @@
 for ციკლის გამოყენებით ტერმინალში გამოიტანეთ რიცხვები a-დან b-მდე
 ( range(a, b) )"""
 
-a = int(input("enter number"))
-b =1+ int(input("enter number"))
+a = int(input("enter number: "))
+b = int(input("enter number: "))
 
 for i in range(a, b):
     print(i)
