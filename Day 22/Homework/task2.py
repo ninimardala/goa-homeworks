@@ -6,12 +6,9 @@
 
 
 
-Georgian = (input("Write Georgian score: "))
-math = (input("Enter math score: "))
-art= (input("Write the score of art: "))
-English = (input("Write English Score:"))
+Georgian = int(input("Write Georgian score: "))
+math = int(input("Enter math score: "))
+art= int(input("Write the score of art: "))
+English = int(input("Write English Score:"))
 
-print(type(Georgian))
-print(type(math))
-print(type(art))
-print(type(English))
+print((Georgian + math + art + English) / 4)

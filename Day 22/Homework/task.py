@@ -6,10 +6,21 @@ password-ს.
 ასევე გამოიყენეთ and და or ოპერატოები."""
 
 
-Name = (input("enter your name: "))
-mail = (input("enter your mail: "))
-password= (input("enter your password: "))
+print("please go to registration")
+Name = input("enter the name: ")
 
-print(type(Name))
-print(type(mail))
-print(type(password))
+mail = input("enter the mail: ")
+
+password = input("enter the password: ")
+print("Registration was completed successfully")
+
+print("login")
+
+Name1 = input("enter the name: ")
+password1 = input("enter the password: ")
+
+if Name == Name1:
+    if password == password1:
+        print("login is completed")   
+else:
+    print("login is error")
