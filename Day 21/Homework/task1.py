@@ -19,8 +19,7 @@ print("login")
 Name1 = input("enter the name: ")
 password1 = input("enter the password: ")
 
-if Name == Name1:
-    if password == password1:
-        print("login is completed")   
+if Name == Name1 and password == password1:
+    print("login is completed")   
 else:
     print("login is error")
